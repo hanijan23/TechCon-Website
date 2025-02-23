@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Techcon Conference 2023</title>
+        <!--2 css docs to save copying code out-->
+        <link rel="stylesheet" href="stylemain.css">
+        <link rel="stylesheet" href="styleform.css">
+        </style>
+    </head>
+    <body>
+        <!--content for all pages (header&nav)-->
+        <header>
+            <!--for text only browsers they will see 'logo'-->
+            <img src="images/cloudlogo.png" alt="logo">
+            <h1>TECH</h1>
+        </header>
+        <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="speakers.html">SPEAKERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </nav>
+
+        <!--content only for form-->
+        <main>
+            <div class="registration">
+            <h1>Register Here</h1>
+            <form>
+                <!--form content-->
+                <p>Full Name: </p>
+                <input type="text" name="fullname" placeholder="Full Name"><br>
+                <p>Age: </p>
+                <input type="number" name="Age" placeholder="Age"><br>
+                <p>Email Address: </p>
+                <input type="email" name="email" placeholder="Email Address"><br>
+                <p>Phone Number: </p>
+                <input type="tel" name="tel" placeholder="Phone Number"><br>
+                <!--submit input-->
+                <div id="submit-div">
+                    <input type="submit" name="submit" value="submit">
+                </div>
+            </div>
+            </form>
+        </main>
+
+         <footer>
+            <p>&copy;Copyright 2023, TechCon, All Rights Reserved</p>
+        </footer>
+
+    </body>
+</html>

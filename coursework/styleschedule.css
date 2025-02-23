@@ -1,0 +1,39 @@
+/*stylemain.css*/
+
+main{
+    background-color: #c7c7c7;
+}
+#date{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+label{
+    margin-left: 40%;
+    color: white;
+    font-weight: bolder;
+}
+
+#table-div{
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(6, 6, 67);
+}
+
+/*table header format*/
+th{
+    background-color: rgb(6, 6, 67);
+    color: white;
+    padding: 8px;
+}
+
+/*table data format*/
+td{
+    background-color: rgb(54, 173, 212);
+    padding: 8px;
+}
+
+#space{
+    min-height: 600px;
+    background-color: #c7c7c7;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Techcon Conference 2023</title>
+        <!--3 css docs to save copying code out-->
+        <link rel="stylesheet" href="stylemain.css">
+        <link rel="stylesheet" href="stylecontact.css">
+        <link rel="stylesheet" href="styleform.css">
+        </style>
+    </head>
+    <body>
+        <!--content for all pages (header&nav)-->
+        <header>
+            <!--for text only browsers they will see 'logo'-->
+            <img src="images/cloudlogo.png" alt="logo">
+            <h1>TECH</h1>
+        </header>
+        <nav class="navbar">
+            <!--list of the navigation options-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="speakers.html">SPEAKERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </nav>
+
+        <!--content only for contact page-->
+        <main>
+            <section class="contact">
+                <h2>Get In Touch</h2>
+                <div id="img-div">
+                    <img src="images/instagram.png" alt="Instagram-Icon">
+                    <a href="https://www.instagram.com" target="_blank"><h4>Instagram</h4></a>
+                </div>
+                <div id="img-div">
+                    <img src="images/facebook.png" alt="Facebook-Icon">
+                    <a href="https://www.facebook.com" target="_blank"><h4>Facebook</h4></a>
+                </div>
+                <div id="img-div">
+                    <img src="images/email.png" alt="Email-Icon">
+                    <a href="mailto:hm430@student.le.ac.uk" target="_blank"><h4>Send an Email</h4></a>
+                </div>
+            </section>
+
+            <section>
+                <div class="registration">
+                    <!--using same css file so 'registration' is used-->
+                    <form>
+                        <h1>Message Us</h1>
+                        <!--form content-->
+                        <p>Full Name: </p>
+                        <input type="text" name="fullname" placeholder="Full Name"><br>
+                        <p>Email Address: </p>
+                        <input type="email" name="email" placeholder="Email Address"><br>
+                        <div id="long-message-div">
+                            <p>Type Message: </p>
+                            <input type="text" name="text" placeholder="Type Here"><br>
+                        </div>
+                        <!--submit input-->
+                        <div id="submit-div">
+                            <input type="submit" name="submit" value="submit">
+                        </div>
+                    </div>
+                    </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy;Copyright 2023, TechCon, All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
