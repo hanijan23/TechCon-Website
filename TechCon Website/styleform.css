@@ -1,0 +1,67 @@
+/*stylemain.css*/
+
+main{
+    background-color: #c7c7c7;
+}
+/*formatting position of form*/
+.registration{
+    width: 30%;
+    margin-left: 35%;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.registration p{
+    font-size: 15px;
+}
+
+.registration h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.registration input{
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 93%;
+    margin: 5px;
+}
+
+/*separate div to change format of submit button*/
+#submit-div{
+    width: 70%;
+    padding-left: 25%;
+    padding-top: 20px;
+}
+input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #836d6d;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+input[type="submit"]:hover {
+    background-color: #a09393;
+}
+
+/*for the contact form*/
+#long-message-div input[type="text"]{
+    min-height: 70px;
+}
+
+/*leaving gaps between form to navbar&footer*/
+footer{
+    padding-top: 150px;
+}
+nav {
+    padding-bottom: 50px;
+    background-color: #c7c7c7;
+}

@@ -1,0 +1,33 @@
+/*stylemain.css*/
+
+/*contact section styles*/
+
+.contact{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#img-div{
+    display: inline-block;
+    margin: 20px;
+    transition: 0.2s;
+}
+#img-div img{
+    width: 100px;
+    height: auto;
+}
+
+#img-div h4{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/*hover over links to change colour*/
+#img-div a:hover{
+    color: #828282;
+}

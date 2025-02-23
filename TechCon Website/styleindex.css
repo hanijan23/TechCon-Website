@@ -1,0 +1,118 @@
+/*stylemain.css*/
+
+/*About Us css*/
+#main-div{
+    text-align: center;
+    background-color: #c7c7c7;
+}
+#main-div h2{
+    background-color: #c7c7c7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+#main-div h3{
+    background-color: #c7c7c7;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    text-decoration: underline;
+}
+#main-div p, #main-div ul{
+    background-color: #c7c7c7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.5;
+}
+#main-div li{
+    margin-left: 15px;
+}
+
+/*formatting the register now call to action button*/
+#register-now-div{
+    background-color: #c7c7c7;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#register-now-div button{
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color: green;
+    border: 1px solid white;
+    width: 20%;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#register-now-div button:hover{
+    background-color: aqua;
+}
+#register-now-div a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+#register-now-div p{
+    font-style: italic;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+section{
+    min-height: 200px;
+    background-color: #c7c7c7;
+}
+section h2{
+    text-align: center;
+    background-color: #c7c7c7;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+#dates-div{
+    background-color: #c7c7c7;
+    width: 49.5%;
+    float: left;
+    border: 1px solid #828282;
+    text-align: center;
+    min-height: 150px;
+}
+#dates-div li{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 1.25rem;
+    list-style-type:square
+}
+#venue-div{
+    background-color: #c7c7c7;
+    width: 49.5%;
+    float: right;
+    border: 1px solid #828282;
+    text-align: center;
+    min-height: 150px;
+}
+#venue-div p{
+    text-align: right;
+    margin-right: 100px;
+}
+
+/*prevents display issues when setting objects side by side*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
